@@ -13,9 +13,9 @@ function createBot() {
       username: config['bot-account']['username'],
       password: config['bot-account']['password'],
       auth: config['bot-account']['type'],
-      host: config.server.ip,
-      port: config.server.port,
-      version: config.server.version,
+      host: config.server.ip,KaihackerYJ8Z.aternos.me
+      port: config.server.port,31298
+      version: config.server.version,1.20.4
    });
 
    bot.loadPlugin(pathfinder);
